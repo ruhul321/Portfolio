@@ -47,6 +47,13 @@ contactEmail.verify((error) => {
   }
 });
 
+router.get("/", (req, res) => {
+  res.status(200).json(`Welcome to Portfolio`);
+});
+router.get("/health", (req, res) => {
+  res.status(200).json(`App is running fine at PORT ${PORT}`);
+});
+
 router.post("/contact", (req, res) => {
   const name = req.body.firstName + req.body.lastName;
   const email = req.body.email;
