@@ -3,7 +3,11 @@ import colorSharp from "../assets/img/color-sharp.png";
 
 export const Experience = () => {
   return (
-    <section className="skill" id="skills" style={{ paddingBottom: "116px" }}>
+    <section
+      className="skill"
+      id="experience"
+      style={{ paddingBottom: "116px" }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-12">
