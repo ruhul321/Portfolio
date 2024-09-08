@@ -36,9 +36,9 @@ export const Skills = () => {
 
               <p>
                 ● <strong>Front-End Technologies</strong>: HTML, CSS,
-                JavaScript, JQuery, React, UI/UX, TailwindCSS, Bootstrap, SCSS{" "}
-                <br />● <strong>Back-End Technologies</strong>: Node.js, Java,
-                JSP, SQL, REST APIs, JWT{" "}
+                JavaScript, TypeScript, JQuery, React, UI/UX, TailwindCSS,
+                Bootstrap <br />● <strong>Back-End Technologies</strong>:
+                Node.js, Java, JSP, SQL, REST APIs, JWT{" "}
                 {"                                              "}
                 <br />●<strong>Frameworks & Libraries</strong>: Express,
                 Next.js, Redux ,React Query, Mongoose, Helmet.js <br />●
