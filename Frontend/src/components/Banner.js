@@ -1,7 +1,6 @@
 import "animate.css";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import headerImg from "../assets/img/header-img.svg";
 
@@ -14,7 +13,7 @@ export const Banner = () => {
   const toRotate = [
     "Front-End Developer",
     "Back-End Developer",
-    "UI/UX Designer",
+    "Full-Stack Developer",
   ];
   const period = 2000;
 
@@ -79,7 +78,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Experienced Full Stack Developer with 3 years of expertise
+                    Experienced Full Stack Developer with 4+ years of expertise
                     in MERN Stack development, including React, Node.js, and
                     MongoDB. Proven track record of designing and deploying
                     scalable applications, focusing on performance optimization
@@ -90,7 +89,7 @@ export const Banner = () => {
 
                   <button className="vvd">
                     <a
-                      href="/resume.pdf"
+                      href="/Ruhul_Resume.pdf"
                       download="Ruhul_Resume.pdf"
                       className="resume-btn btn-bann"
                     >

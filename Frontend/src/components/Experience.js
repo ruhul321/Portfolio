@@ -16,9 +16,66 @@ export const Experience = () => {
                 <h2>Experience</h2>
                 <div className="job-title">
                   <h3>
+                    Software Engineer | H&M Services Private Limited, Bangalore
+                  </h3>
+                  <p>(Dec 2025 - Present)</p>
+                </div>
+                <ul>
+                  <li>
+                    Designed and developed an internal broadcasting platform
+                    enabling stakeholders to publish and manage clothing content
+                    across multiple business domains, improving content delivery
+                    efficiency by ~40%.
+                  </li>
+                  <li>
+                    Refactored and optimized API integration with a global
+                    common clothing data service, reducing API response latency
+                    by ~35% and improving data throughput under high
+                    concurrency.
+                  </li>
+                  <li>
+                    Translated Jira user stories into scalable technical
+                    solutions, delivering features within Agile sprint cycles
+                    with minimal regression defects.
+                  </li>
+                </ul>
+                <div className="job-title">
+                  <h3>
+                    Full Stack Developer | Firstsource Solution Limited,
+                    Bangalore
+                  </h3>
+                  <p>(Jan 2025 - Dec 2025)</p>
+                </div>
+                <ul>
+                  <li>
+                    Developed Agentic AI Solution, a portal leveraging AI/LLMs
+                    to dynamically generate UI components from Excel
+                    configuration files.
+                  </li>
+                  <li>
+                    Implemented a low-code/no-code UI generation system,
+                    reducing manual UI development time by 60%.
+                  </li>
+                  <li>
+                    Enhanced authentication and authorization via Keycloak
+                    (OAuth2, JWT, SSO), ensuring secure multi-tenant access
+                    control.
+                  </li>
+                  <li>
+                    Built and maintained backend microservices using Node.js,
+                    Express, and MongoDB, optimizing scalability and
+                    performance.
+                  </li>
+                  <li>
+                    Deployed components on Azure, incorporating CI/CD pipelines
+                    for automated testing and deployment.
+                  </li>
+                </ul>
+                <div className="job-title">
+                  <h3>
                     Full Stack Developer | Tata Consultancy Services, Bangalore
                   </h3>
-                  <p>(Dec 2021 - Present)</p>
+                  <p>(Dec 2021 - Jan 2025)</p>
                 </div>
                 <ul>
                   <li>
@@ -47,8 +104,8 @@ export const Experience = () => {
                     frontend.
                   </li>
                   <li>
-                    Implemented authentication and authorization mechanismsusing
-                    JWT, enhancing application security and reducing
+                    Implemented authentication and authorization mechanisms
+                    using JWT, enhancing application security and reducing
                     unauthorized access attempts by 15%.
                   </li>
                 </ul>

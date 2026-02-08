@@ -849,3 +849,21 @@ li {
     margin-right: 15px; /* Adjust spacing between links */
   }
 }
+
+/* Footer-only social icon alignment override */
+.footer .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.footer .social-icon a {
+  margin-right: 0;
+}
+
+.footer p {
+  text-align: center;
+}

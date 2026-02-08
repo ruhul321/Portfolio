@@ -1,25 +1,21 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import { Col, Container, Row } from "react-bootstrap";
 import navIcon3 from "../assets/img/github-mark-white.svg";
 import navIcon4 from "../assets/img/gmail.svg";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center justify-content-center text-center">
           {/* <MailchimpForm /> */}
-          <Col size={12} sm={6}>
+          <Col size={12} sm={12} className="text-center">
             {/* <img src={logo} alt="Logo" /> */}
             {/* <p>
               Ruhul barbhuiya <br />
               Contact : 9101641886
             </p> */}
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/ruhul-amin-barbhuiya-790834167/"
